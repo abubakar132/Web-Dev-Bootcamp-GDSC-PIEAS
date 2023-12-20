@@ -1,0 +1,276 @@
+/* CSS Cheatsheet by Abu Bakar - Web Dev Bootcamp - GDSC PIEAS */
+
+/* Selectors */
+/* ---------------------------------------- */
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Element Selector */
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+/* Class Selector */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* ID Selector */
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+  color: #ff6600;
+}
+
+/* Pseudo-element Selector */
+p::first-line {
+  font-weight: bold;
+}
+
+/* Grouping Selectors */
+h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+/* Descendant Combinator */
+article p {
+  line-height: 1.5;
+}
+
+/* Child Combinator */
+ul > li {
+  list-style-type: square;
+}
+
+/* Adjacent Sibling Combinator */
+h2 + p {
+  margin-top: 0;
+}
+
+/* Attribute Selectors */
+input[type="text"] {
+  border: 1px solid #ccc;
+}
+
+/* General Styling */
+/* ---------------------------------------- */
+
+/* Opacity */
+.transparent-box {
+  opacity: 0.7;
+}
+
+/* Box Shadow */
+.shadow-box {
+  box-shadow: 5px 5px 10px #888888;
+}
+
+/* Text Shadow */
+.text-shadow {
+  text-shadow: 2px 2px 4px #888888;
+}
+
+/* Overflow */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Cursor */
+.pointer-cursor {
+  cursor: pointer;
+}
+
+/* User Interface */
+/* ---------------------------------------- */
+
+/* Outline */
+.outlined-input {
+  outline: 2px solid #007bff;
+}
+
+/* Resize */
+.resizable-box {
+  resize: both;
+  overflow: auto;
+}
+
+/* Box Sizing */
+.border-box-sizing {
+  box-sizing: border-box;
+}
+
+/* Flexbox */
+/* ---------------------------------------- */
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Flex Item */
+.flex-item {
+  flex: 1;
+}
+
+/* Flex Direction */
+.flex-column {
+  flex-direction: column;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* Grid Layout */
+/* ---------------------------------------- */
+
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* Grid Item */
+.grid-item {
+  grid-column: span 2;
+}
+
+/* Text Properties */
+/* ---------------------------------------- */
+
+/* Letter Spacing */
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
+/* Word Spacing */
+.word-spacing {
+  word-spacing: 5px;
+}
+
+/* Text Transform */
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+/* Vertical Alignment */
+.vertical-align {
+  vertical-align: middle;
+}
+
+/* Lists */
+/* ---------------------------------------- */
+
+/* List Style Type */
+.custom-list {
+  list-style-type: circle;
+}
+
+/* List Style Position */
+.inside-list {
+  list-style-position: inside;
+}
+
+/* Counter Reset */
+.reset-counter {
+  counter-reset: section;
+}
+
+/* Transforms */
+/* ---------------------------------------- */
+
+/* Rotate */
+.rotated-box {
+  transform: rotate(45deg);
+}
+
+/* Scale */
+.scaled-box {
+  transform: scale(1.2);
+}
+
+/* Translate */
+.translated-box {
+  transform: translate(20px, -10px);
+}
+
+/* Animation */
+/* ---------------------------------------- */
+
+/* Animation Name */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation Duration */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Responsive Design */
+/* ---------------------------------------- */
+
+/* Media Query for Tablet Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Custom styles for tablet landscape */
+}
+
+/* Media Query for Tablet Portrait */
+@media only screen and (max-width: 767px) {
+  /* Custom styles for tablet portrait */
+}
+
+/* Media Query for Smartphone */
+@media only screen and (max-width: 480px) {
+  /* Custom styles for smartphone */
+}
+
+/* Commenting and Organization */
+/* ---------------------------------------- */
+
+/* Section Header Comment */
+/*******************************/
+
+/* Single Line Comment */
+/* This is a single-line comment */
+
+/* Multi-line Comment */
+/*
+  This is a
+  multi-line comment
+*/
+
+/* End of CSS Cheatsheet */
+/*******************************/
